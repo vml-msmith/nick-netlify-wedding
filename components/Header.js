@@ -1,3 +1,13 @@
+import styles from './Header.module.css'
+
+
 export default function Header({ title }) {
-  return <h1 className="title">{title}</h1>
+  return (
+    <div className={styles.header}>
+      <h1 className={styles.header__title}>{title}</h1>
+      <div className="">
+        <div>October 14, 2024 &#x2022; Kansas City, MO</div>
+      </div>
+    </div>
+  )
 }
