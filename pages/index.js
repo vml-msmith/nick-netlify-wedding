@@ -20,7 +20,7 @@ export default function Home() {
     <div className="container">
 
       <Head>
-        <title>Next.js Starter!</title>
+        <title>Irina and Michael -- Getting Married!</title>
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
