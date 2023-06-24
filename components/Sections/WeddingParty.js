@@ -29,7 +29,7 @@ export default function WeddingParty() {
           <p>Lorem ipsum</p>
         </IndividualStory>
 
-        <IndividualStory role="Bridesmaid" title="Victora Shevchenko" img="/IMG_1071.jpeg" img_alt="">
+        <IndividualStory role="Bridesmaid" title={<>Victora<br/>Shevchenko</>} img="/IMG_1071.jpeg" img_alt="">
           <p>Lorem ipsum</p>
         </IndividualStory>
 
