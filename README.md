@@ -1,4 +1,28 @@
+# To make changes ...
+
+## Run Dev Server
+From command line do the following:
+```
+cd <directory>
+npm install
+npm run dev
+```
+
+## Update Content
+Only update content in /components/Sections such as ```/components/Section/OurStory.js```
+
+## Add images that can be used
+Images that you want to use should be moved to /public.
+
+Any image that is used should be used with a forward-slash (/) before it, such as '/IMG_12345.jpg'.
+
+## Update Photo Gallery
+Within /components/Sections/Photos.js update the 'photos' array with any images you want to add. The order they are listed here is the order they'll appear in the gallery.
+
+
+
 # Next + Netlify Starter
+
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/46648482-644c-4c80-bafb-872057e51b6b/deploy-status)](https://app.netlify.com/sites/next-dev-starter/deploys)
 
