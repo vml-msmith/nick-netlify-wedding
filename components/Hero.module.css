@@ -7,4 +7,13 @@
 
 .hero {
   text-align: center;
+  width: 100%;
+}
+
+.hero > span {
+  max-height: 675px;
+}
+
+.hero img {
+  object-fit: cover;
 }

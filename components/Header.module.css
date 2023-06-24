@@ -6,3 +6,25 @@
   text-transform: uppercase;
   letter-spacing: 4px;
 }
+
+
+.header__date {
+  font: 400 14px Lato, sans-serif;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  position: relative;
+
+  @media (min-width: 768px) {
+    margin: 15px 0px;
+  }
+}
+
+.header__date:after {
+  content: ' ';
+  width: 100px;
+  height: 1px;
+  border-bottom: 1px solid black;
+  position: absolute;
+  left: calc(50% - 50px);
+  top: 29px;
+}

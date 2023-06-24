@@ -3,16 +3,23 @@
   max-width: 860px;
   padding: 0 1rem;
   margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
 
-  @media (min-width: 768px) {
+  @media (min-width: calc(860px + 1rem)) {
     padding: 0;
   }
 }
 
 .fullwidth {
+  margin: 0 0 2rem 0;
 }
 
 .fullwidth h2 {
-  font-size: 1.25rem;
+  font-size: 1.9rem;
   font-weight: 500;
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  border-bottom: 1px solid black;
 }
