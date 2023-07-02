@@ -5,8 +5,10 @@
   margin-top: 2rem;
   margin-left: auto;
   margin-right: auto;
+}
 
-  @media (min-width: calc(860px + 1rem)) {
+@media (min-width: calc(860px + 1rem)) {
+  .section {
     padding: 0;
   }
 }
