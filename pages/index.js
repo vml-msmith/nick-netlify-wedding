@@ -13,6 +13,8 @@ import OurStory from '@components/Sections/OurStory'
 
 import WeddingParty from '@components/Sections/WeddingParty'
 import Photos from '@components/Sections/Photos'
+import RSVP from '@components/Sections/RSVP'
+
 
 
 export default function Home() {
@@ -21,7 +23,7 @@ export default function Home() {
 
       <Head>
         <title>Irina and Michael -- Getting Married!</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet"></link>
@@ -29,13 +31,11 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Sofia-Sans:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap" rel="stylesheet" />
 
       </Head>
-
       <main>
-
+        <div id="home" name="home"></div>
         <Hero />
         <Menu title="I&M" />
         <Header title="Irina & Michael" />
-
         <OurStory />
         <Photos />
         <WeddingParty />
@@ -85,9 +85,8 @@ export default function Home() {
           </div>
           
         </Section>
-        
-        <Generic />
-        <Generic />
+
+        <RSVP />
 
       </main>
 

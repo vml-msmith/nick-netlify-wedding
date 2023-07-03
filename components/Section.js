@@ -7,9 +7,12 @@ export default function Section(props) {
   }
 
   return (
+    <>
+    <a id={props.id}></a>
     <div className={sectionStyle} id={props.id} name={props.id}>
       <div className={styles.fullwidth}><h2>{props.title}</h2></div>
       {props.children}
     </div>
+    </>
   );
 }

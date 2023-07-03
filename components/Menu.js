@@ -1,24 +1,64 @@
-import styles from './Menu.module.css'
+import styles from "./Menu.module.css";
+import Script from "next/script";
+
 
 export default function Menu({ title }) {
   return (
-    <div className={styles.mainnav}>
-      <div className={styles.mainnav__title}>{title}</div>
 
-      <input className={styles.mainnav__sidemenu} type="checkbox" id="side-menu"/>
-      <label className={styles.mainnav__hamburger} for="side-menu"><span className={styles.mainnav__hamburger_line}></span></label>
+      <div className={styles.mainnav}>
 
-      <nav className={styles.mainnav__nav}>
+<Script type="text/javascript" src="/assets/noframework.waypoints.min.js" />
+      <Script type="text/javascript" src="/assets/nav.js" />
+        <div className={styles.mainnav__title}>{title}</div>
+
+        <input
+          className={styles.mainnav__sidemenu}
+          type="checkbox"
+          id="side-menu"
+        />
+        <label className={styles.mainnav__hamburger} htmlFor="side-menu">
+          <span className={styles.mainnav__hamburger_line}></span>
+        </label>
+
+        <nav className={styles.mainnav__nav}>
           <ul className={styles.mainnav__menu}>
-              <li><a href="#">Home</a></li>
-              <li><a href="#story">Our Story</a> </li>
-              <li><a href="#photos">Photos</a></li>
-              <li><a href="#party">Wedding Party</a></li>
-              <li><a href="#day">Wedding Day</a></li>
-              <li><a href="#">RSVP</a></li>
-              <li><a href="#">Registry</a></li>
+            <li>
+              <a href="#home" className="nav-link">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="#story" className="nav-link">
+                Our Story
+              </a>{" "}
+            </li>
+            <li>
+              <a href="#photos" className="nav-link">
+                Photos
+              </a>
+            </li>
+            <li>
+              <a href="#party" className="nav-link">
+                Wedding Party
+              </a>
+            </li>
+            <li>
+              <a href="#day" className="nav-link">
+                Wedding Day
+              </a>
+            </li>
+            <li>
+              <a href="#rsvp" className="nav-link">
+                RSVP
+              </a>
+            </li>
+            <li>
+              <a href="#registry" className="nav-link">
+                Registry
+              </a>
+            </li>
           </ul>
-      </nav>
-    </div>
-  )
+        </nav>
+      </div>
+  );
 }
