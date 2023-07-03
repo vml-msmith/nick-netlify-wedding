@@ -53,7 +53,7 @@ export default function Menu({ title }) {
               </a>
             </li>
             <li>
-              <a href="#registry" className="nav-link">
+              <a target="_blank" href="https://www.zola.com/registry/michaelandirina2023" className="nav-link">
                 Registry
               </a>
             </li>

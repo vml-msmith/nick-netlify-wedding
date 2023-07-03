@@ -310,6 +310,16 @@ h1 {
   font-weight: 600;
 }
 
+.registry_heading {
+  text-align: center;
+
+}
+
+.registry_heading  a {
+  color: #333;
+  text-decoration: underline;
+}
+
 /* Injected CSS Code */
 .form-label.form-label-auto {    
   display: inline-block;

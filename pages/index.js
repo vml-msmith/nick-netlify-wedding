@@ -65,6 +65,12 @@ export default function Home() {
 
         <RSVP />
 
+        <Section id="registry" title="Registry">
+          <h1 className="registry_heading">
+            <a target="_blank" href="https://www.zola.com/registry/michaelandirina2023">Visit Our Gift Registry</a>
+          </h1>
+        </Section>
+
       </main>
 
       <Footer />
