@@ -48,12 +48,12 @@ main {
     flex-direction: column-reverse;
   }
 
-  main > div:nth-child(1) {
-    grid-row: 3;
+  main > div:nth-child(2) {
+    grid-row: 4;
   }
 
-  main > div:nth-child(2) {
-    grid-row: 2;
+  main > div:nth-child(3) {
+    grid-row: 3;
     padding-top: 30px;
   }
 }
@@ -61,8 +61,6 @@ main {
 h1 {
   font-family: 'Playfair Display', serif;
 }
-
-
 
 .image {
   width: 100%;
@@ -263,6 +261,10 @@ iframe {
 }
 
 
+.nav-link.active {
+  border-color: var(--gray);
+}
+
 .header-text p {
   text-align: center;
 }
@@ -281,12 +283,11 @@ iframe {
 }
 
 /* Injected CSS Code */
-.form-label.form-label-auto {
-    
+.form-label.form-label-auto {    
   display: inline-block;
   float: left;
   text-align: left;
-
 }
+
 /* Injected CSS Code */
 @media print{.form-section{display:inline!important}.form-pagebreak{display:none!important}.form-section-closed{height:auto!important}.page-section{position:initial!important}}

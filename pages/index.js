@@ -31,13 +31,11 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Sofia-Sans:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap" rel="stylesheet" />
 
       </Head>
-
       <main>
-
+        <div id="home" name="home"></div>
         <Hero />
         <Menu title="I&M" />
         <Header title="Irina & Michael" />
-
         <OurStory />
         <Photos />
         <WeddingParty />
