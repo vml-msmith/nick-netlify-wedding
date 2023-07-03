@@ -13,8 +13,10 @@
   letter-spacing: 0.1em;
   text-transform: uppercase;
   position: relative;
+}
 
-  @media (min-width: 768px) {
+@media (min-width: 768px) {
+  .header__date {
     margin: 15px 0px;
   }
 }
