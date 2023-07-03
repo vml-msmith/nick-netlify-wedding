@@ -6,7 +6,7 @@ export default function Menu({ title }) {
       <div className={styles.mainnav__title}>{title}</div>
 
       <input className={styles.mainnav__sidemenu} type="checkbox" id="side-menu"/>
-      <label className={styles.mainnav__hamburger} for="side-menu"><span className={styles.mainnav__hamburger_line}></span></label>
+      <label className={styles.mainnav__hamburger} htmlFor="side-menu"><span className={styles.mainnav__hamburger_line}></span></label>
 
       <nav className={styles.mainnav__nav}>
           <ul className={styles.mainnav__menu}>
@@ -15,8 +15,8 @@ export default function Menu({ title }) {
               <li><a href="#photos">Photos</a></li>
               <li><a href="#party">Wedding Party</a></li>
               <li><a href="#day">Wedding Day</a></li>
-              <li><a href="#">RSVP</a></li>
-              <li><a href="#">Registry</a></li>
+              <li><a href="#rsvp">RSVP</a></li>
+              <li><a href="#registry">Registry</a></li>
           </ul>
       </nav>
     </div>
