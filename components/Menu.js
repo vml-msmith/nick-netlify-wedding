@@ -54,7 +54,7 @@ export default function Menu({ title }) {
             </li>
             <li>
               <a target="_blank" href="https://www.zola.com/registry/michaelandirina2023" className="nav-link">
-                Registry
+                Gifts
               </a>
             </li>
           </ul>
