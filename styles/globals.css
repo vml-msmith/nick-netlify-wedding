@@ -140,6 +140,12 @@ h1 {
 .photo_gallery img {
   border-radius: 10px;
   object-fit: cover;
+  cursor: pointer;
+}
+
+
+.modal__content-image img {
+  cursor: initial !important;
 }
 
 .copy {
@@ -248,14 +254,9 @@ h1 {
 
 .modal__content-image {
   position: relative;
-    /* top: 2rem; */
-    /* left: 2rem; */
-    /* right: 2rem; */
-    /* bottom: 2rem; */
-    /* overflow: hidden; */
-    height: calc(100% - 3rem);
-    border-radius: 10px;
-    overflow: hidden;
+  height: calc(100% - 3rem);
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .modal__content-image > span {
