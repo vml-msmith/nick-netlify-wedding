@@ -19,7 +19,7 @@ export default function OurStory() {
         <p>Michael </p>
       </IndividualStory>
 
-      <TogetherStory title="Us Together!" img="/g32.jpeg" img_alt="">
+      <TogetherStory title="Us Together!" img="/us1.jpeg" img_alt="">
         <p>As they stand on the precipice of their wedding day, Michael and Irina are filled with excitement for the future. They look forward to continuing their journey as partners, building a life rooted in love, understanding, and shared dreams. With hearts intertwined and a steadfast commitment, they eagerly anticipate the beautiful chapters yet to be written, knowing that their love will guide them through every moment, now and forever.</p>
       </TogetherStory>
     </div>
