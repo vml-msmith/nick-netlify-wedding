@@ -7,7 +7,7 @@ export default function Hero({ title }) {
     <div className={styles.hero}>
       <Image
         layout='fill'
-                src='/photo-header.jpg'
+                src='/header.jpeg'
                 alt='user profile picture'
                 width={300}
                 height={300}

@@ -5,7 +5,7 @@ export default function WeddingParty() {
   return (
     <Section id="party" title="Wedding Party" type="condensed">
       <div className="story__content">
-        <IndividualStory role="Maid of Honor" title={<>Tatiana<br/>Moroz</>} img="/IMG_1071.jpeg" img_alt="" extra={<><p> Mauris posuere magna metus, vel rutrum neque convallis ut. Quisque sagittis, metus lobortis elementum vestibulum, risus ante vestibulum augue, ac sodales enim ipsum non mi. Sed vel cursus sapien. Pellentesque posuere ex sit amet orci faucibus elementum. Vestibulum urna nulla, maximus sed velit sit amet, malesuada porta mi. Vestibulum a hendrerit augue, et auctor ex. Nullam et laoreet leo, vitae condimentum mi. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p><p>Maecenas euismod, mauris vel aliquam maximus, massa purus euismod est, vitae volutpat nisl dolor convallis sem.</p></>}>
+        <IndividualStory role="Maid of Honor" title={<>Tatiana<br/>Moroz</>} img="/tanya.jpeg" img_alt="" extra={<><p> Mauris posuere magna metus, vel rutrum neque convallis ut. Quisque sagittis, metus lobortis elementum vestibulum, risus ante vestibulum augue, ac sodales enim ipsum non mi. Sed vel cursus sapien. Pellentesque posuere ex sit amet orci faucibus elementum. Vestibulum urna nulla, maximus sed velit sit amet, malesuada porta mi. Vestibulum a hendrerit augue, et auctor ex. Nullam et laoreet leo, vitae condimentum mi. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p><p>Maecenas euismod, mauris vel aliquam maximus, massa purus euismod est, vitae volutpat nisl dolor convallis sem.</p></>}>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut porta metus, at dictum enim.</p>
         </IndividualStory>
 
