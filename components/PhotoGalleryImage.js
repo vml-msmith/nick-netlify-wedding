@@ -15,6 +15,7 @@ export default function PhotoGallery(props) {
     else {
       window.removeEventListener('keydown', keyPress)
     }
+    props.handleClose(e)
   }
 
   const keyPress = (e) => {

@@ -6,8 +6,6 @@ export default function PhotoGallery(props) {
   const [showAll, setShowAll] = React.useState(false);
 
   const handleLeft = function (e, current) {
-    console.log("Go left");
-    console.log(current);
     if (current === 0) {
       setShowAll(true);
       setCurrentIndex(props.photos.length - 1);
@@ -17,8 +15,6 @@ export default function PhotoGallery(props) {
   };
 
   const handleRight = function (e, current) {
-    console.log("Go right");
-
     if (current === props.photos.length - 1) {
       setCurrentIndex(0);
     } else {
