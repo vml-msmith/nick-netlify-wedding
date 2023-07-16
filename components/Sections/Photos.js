@@ -38,7 +38,11 @@ export default function Photos() {
     '/g33.jpeg',
     '/g34.jpeg',
     '/g35.jpeg',
-    '/g36.jpeg'
+    '/g36.jpeg',
+    '/g37.jpeg',
+    '/g38.jpeg',
+    '/g39.jpeg',
+    '/g40.jpeg'
 
   ];
 

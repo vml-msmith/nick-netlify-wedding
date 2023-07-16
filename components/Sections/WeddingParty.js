@@ -13,7 +13,7 @@ export default function WeddingParty() {
           <p>Nunc posuere lobortis orci, a tristique magna. Praesent dolor nibh, interdum eget arcu id.</p>
         </IndividualStory>
 
-        <IndividualStory role="Bridesmaid" title={<>Olha<br/>Vohk</>} img="/IMG_1071.jpeg" img_alt="">
+        <IndividualStory role="Bridesmaid" title={<>Olha<br/>Vohk</>} img="/olga.jpeg" img_alt="">
           <p>Lorem ipsum</p>
         </IndividualStory>
 
@@ -29,7 +29,7 @@ export default function WeddingParty() {
           <p>Lorem ipsum</p>
         </IndividualStory>
 
-        <IndividualStory role="Bridesmaid" title={<>Victora<br/>Shevchenko</>} img="/IMG_1071.jpeg" img_alt="">
+        <IndividualStory role="Bridesmaid" title={<>Victoria<br/>Shevchenko</>} img="/vika.jpeg" img_alt="">
           <p>Lorem ipsum</p>
         </IndividualStory>
 
