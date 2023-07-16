@@ -90,7 +90,7 @@ h1 {
 .copy_content {
   display: grid;
   grid-gap: 1rem;
-  grid-template-rows: max-content;  
+  grid-template-rows: max-content;
 }
 
 @media (min-width: 768px) {
@@ -101,6 +101,10 @@ h1 {
 
 .copy_image > span {
   height: 300px !important;
+}
+
+.copy_image--together > span {
+  height: 600px !important;
 }
 
 .copy_image > span > img {
@@ -259,6 +263,12 @@ h1 {
   height: 100% !important;
 }
 
+.modal__content-image img {
+  width: auto !important;
+  max-width: auto !important;
+  min-width: auto !important;
+}
+
 .nav-link.active {
   border-color: var(--gray);
 }
@@ -321,10 +331,31 @@ h1 {
   text-decoration: underline;
 }
 
+.max-width {
+  max-width: 860px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.show_all {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.show_all a {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: .9rem;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #333;
+}
 
 /* Injected CSS Code */
-.form-label.form-label-auto {    
+.form-label.form-label-auto {
   display: inline-block;
   float: left;
   text-align: left;

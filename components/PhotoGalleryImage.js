@@ -13,7 +13,7 @@ export default function PhotoGallery(props) {
       window.addEventListener('keydown', keyPress)
     }
     else {
-      window.removeEventListener('keydown', keyPress)      
+      window.removeEventListener('keydown', keyPress)
     }
   }
 
@@ -30,6 +30,12 @@ export default function PhotoGallery(props) {
       window.removeEventListener('keydown', keyPress)
       props.handleLeft(e, props.index);
     }
+    else if (e.keyCode === 39) {
+      // Go left
+      setCollapseOpen(false);
+      window.removeEventListener('keydown', keyPress)
+      props.handleRight(e, props.index);
+    }
   }
 
 
@@ -38,10 +44,12 @@ export default function PhotoGallery(props) {
       window.addEventListener('keydown', keyPress)
     }
 
-    if (props.isOpen) {
-      handleClick();
-    }
   },[])
+
+  if (props.isOpen && !collapseOpen) {
+    handleClick();
+  }
+
 
   return (
     <>
