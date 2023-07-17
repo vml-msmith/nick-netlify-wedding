@@ -12,7 +12,9 @@ import Photos from "@components/Sections/Photos";
 import RSVP from "@components/Sections/RSVP";
 import WeddingDay from "@components/Sections/WeddingDay";
 import Registry from "@components/Sections/Registry";
+import FAQ from "@components/Sections/FAQ";
 import Section from "@components/Section";
+
 export default function Home() {
   return (
     <div className="container">
@@ -63,11 +65,13 @@ export default function Home() {
         <Photos />
         <WeddingParty />
         <WeddingDay />
+        <FAQ />
         <RSVP />
         <Registry />
       </main>
 
       <Footer />
     </div>
-  );
+  )
 }
+

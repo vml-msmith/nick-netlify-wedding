@@ -369,6 +369,18 @@ h1 {
   text-decoration: underline;
 }
 
+.faq__item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 2rem 0;
+  grid-gap: 1rem;
+}
+
+.faq__question {
+  font-weight: bold;
+}
+
+
 /* Injected CSS Code */
 .form-label.form-label-auto {
   display: inline-block;

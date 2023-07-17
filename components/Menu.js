@@ -48,6 +48,11 @@ export default function Menu({ title }) {
               </a>
             </li>
             <li>
+              <a href="#faq" className="nav-link">
+                FAQ
+              </a>
+            </li>
+            <li>
               <a href="#rsvp" className="nav-link">
                 RSVP
               </a>
