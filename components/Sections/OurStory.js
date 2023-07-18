@@ -15,7 +15,7 @@ export default function OurStory() {
 
       </IndividualStory>
 
-      <IndividualStory title="Michael" img="/michael2.jpeg" img_alt="">
+      <IndividualStory title="Michael" img="/michael1.jpeg" img_alt="">
         <p>Michael </p>
       </IndividualStory>
 

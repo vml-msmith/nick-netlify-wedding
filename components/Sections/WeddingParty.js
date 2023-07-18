@@ -21,11 +21,11 @@ export default function WeddingParty() {
           <p>Lorem ipsum</p>
         </IndividualStory>
 
-        <IndividualStory role="Bridesmaid" title={<>Marina<br/>Melnychuk</>} img="/marina.jpeg" img_alt="">
+        <IndividualStory role="Bridesmaid" title={<>Marina<br/>Melnychuk</>} img="/marina2.jpeg" img_alt="">
           <p>Marina has a special place in my heart because I’ve known her since my childhood. Incredible confidence and self control is what made me to look up to her. Marina is the one who will always give you an advice that will have the best outcome. After a long separation she came to US last year- now I cannot imagine my special day without her standing by my side.</p>
         </IndividualStory>
 
-        <IndividualStory role="Groomsman" title={<>Corey<br/>Lee</>} img="/marina.jpeg" img_alt="">
+        <IndividualStory role="Groomsman" title={<>Corey<br/>Lee</>} img="/cory.jpeg" img_alt="">
           <p>Lorem ipsum</p>
         </IndividualStory>
 
