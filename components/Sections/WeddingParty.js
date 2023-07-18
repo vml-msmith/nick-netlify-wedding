@@ -21,15 +21,15 @@ export default function WeddingParty() {
           <p>Lorem ipsum</p>
         </IndividualStory>
 
-        <IndividualStory role="Bridesmaid" title={<>Marina<br/>Melychuk</>} img="/IMG_1071.jpeg" img_alt="">
+        <IndividualStory role="Bridesmaid" title={<>Marina<br/>Melychuk</>} img="/marina1.jpeg" img_alt="">
           <p>Lorem ipsum</p>
         </IndividualStory>
 
-        <IndividualStory role="Groomsman" title={<>Corey<br/>Lee</>} img="/IMG_1071.jpeg" img_alt="">
+        <IndividualStory role="Groomsman" title={<>Corey<br/>Lee</>} img="/marina.jpeg" img_alt="">
           <p>Lorem ipsum</p>
         </IndividualStory>
 
-        <IndividualStory role="Bridesmaid" title={<>Victoria<br/>Shevchenko</>} img="/vika.jpeg" img_alt="">
+        <IndividualStory role="Bridesmaid" title={<>Victoria<br/>Shevchenko</>} img="/vika2.jpeg" img_alt="">
           <p>Lorem ipsum</p>
         </IndividualStory>
 
