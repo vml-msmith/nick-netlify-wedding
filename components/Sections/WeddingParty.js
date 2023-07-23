@@ -17,8 +17,8 @@ export default function WeddingParty() {
           <p>Lorem ipsum</p>
         </IndividualStory>
 
-        <IndividualStory role="Groomsman" title={<>Corey<br/>Lee</>} img="/cory.jpeg" img_alt="">
-          <p>Corey and I spent the majority of our teenage and early 20s years in each others company. We also met at Boy Scouts, and both participated in a lot of the same activities, including working together on Camp Staff. We both came of age together, spent too many nights hanging out at a Coffee Shop and then decided to travel around the US together. Corey has gone on to serve in the Army and later move away from Kansas City, but I couldn't imagine I'd be the man I am today without his influence.</p>
+        <IndividualStory role="Groomsman" title={<>Corey<br/>Lee</>} img="/corey.jpg" img_alt="">
+          <p>Corey and I spent the majority of our teenage and early 20s years in each others company. We also met at Boy Scouts, and both participated in a lot of the same activities, including working together on Camp Staff. We both came of age together, spent too many nights hanging out at a coffee shop in college years and then decided to travel around the US together. Corey has gone on to serve in the Army and later move away from Kansas City, but I couldn't imagine I'd be the man I am today without his influence.</p>
         </IndividualStory>
 
         <IndividualStory role="Bridesmaid" title={<>Marina<br/>Melnychuk</>} img="/marina2.jpeg" img_alt="">
