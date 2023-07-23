@@ -17,16 +17,16 @@ export default function WeddingParty() {
           <p>Lorem ipsum</p>
         </IndividualStory>
 
-        <IndividualStory role="Groomsman" title={<>Devon<br/>Smith</>} img="/devon.jpg" img_alt="">
-          <p>Devon is my younger brother by 9 years. For many siblings, that age gap may make for a not-very-close relationship. In our case though, that couldn't be further from the truth. Devon is certainly one of my go-to calls when I'm inviting people to hang out or looking to involve people in an activity. We share a lot of the same interests and I definitely consider him a friend as well as my brother.</p>
+        <IndividualStory role="Groomsman" title={<>Corey<br/>Lee</>} img="/cory.jpeg" img_alt="">
+          <p>Corey and I spent the majority of our teenage and early 20s years in each others company. We also met at Boy Scouts, and both participated in a lot of the same activities, including working together on Camp Staff. We both came of age together, spent too many nights hanging out at a Coffee Shop and then decided to travel around the US together. Corey has gone on to serve in the Army and later move away from Kansas City, but I couldn't imagine I'd be the man I am today without his influence.</p>
         </IndividualStory>
 
         <IndividualStory role="Bridesmaid" title={<>Marina<br/>Melnychuk</>} img="/marina2.jpeg" img_alt="">
           <p>Marina has a special place in my heart because I’ve known her since my childhood. Incredible confidence and self control is what made me to look up to her. Marina is the one who will always give you an advice that will have the best outcome. After a long separation she came to US last year- now I cannot imagine my special day without her standing by my side.</p>
         </IndividualStory>
 
-        <IndividualStory role="Groomsman" title={<>Corey<br/>Lee</>} img="/cory.jpeg" img_alt="">
-          <p>Corey and I spent the majority of our teenage and early 20s years in each others company. We also met at Boy Scouts, and both participated in a lot of the same activities, including working together on Camp Staff. We both came of age together, spent too many nights hanging out at a Coffee Shop and then decided to travel around the US together. Corey has gone on to serve in the Army and later move away from Kansas City, but I couldn't imagine I'd be the man I am today without his influence.</p>
+        <IndividualStory role="Groomsman" title={<>Devon<br/>Smith</>} img="/devon.jpg" img_alt="">
+          <p>Devon is my younger brother by 9 years. For many siblings, that age gap may make for a not-very-close relationship. In our case though, that couldn't be further from the truth. Devon is certainly one of my go-to calls when I'm inviting people to hang out or looking to involve people in an activity. We share a lot of the same interests and I definitely consider him a friend as well as my brother.</p>
         </IndividualStory>
 
         <IndividualStory role="Bridesmaid" title={<>Victoria<br/>Shevchenko</>} img="/vika2.jpeg" img_alt="">
