@@ -66,7 +66,7 @@ export default function RSVP() {
                     Wedding Ceremony and Reception RSVP
                   </h2>
                   <p>
-                    Please reply by <strong>September 1st</strong>. We hope you
+                    Invites have gone out! Please reply by <strong>September 1st</strong>. We hope you
                     can make it, and really appreciate the prompty reply!
                   </p>
                 </div>{" "}
