@@ -14,7 +14,7 @@ export default function WeddingParty() {
         </IndividualStory>
 
         <IndividualStory role="Bridesmaid" title={<>Olha<br/>Vovk</>} img="/olga.jpeg" img_alt="">
-          <p>Lorem ipsum</p>
+          <p>My workplace is also the place where I connected with one of the most incredible people I know. Olha and I bonded over something that is called API automation, and it evolved into a strong friendship and later into a business partnership. It is very rare when you meet someone later in life and you create a meaningful relationship that you treasure and this is exactly what happened between Olha and I.</p>
         </IndividualStory>
 
         <IndividualStory role="Groomsman" title={<>Corey<br/>Lee</>} img="/corey.jpg" img_alt="">
