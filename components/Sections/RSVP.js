@@ -4,6 +4,8 @@ import Script from "next/script";
 export default function RSVP() {
   return (
     <Section id="rsvp" title="RSVP">
+      <Script type="text/javascript" src="/assets/jotform.js" />
+
       <script
         src="https://cdn02.jotfor.ms/static/prototype.forms.js?3.3.43100"
         type="text/javascript"
@@ -20,7 +22,6 @@ export default function RSVP() {
         src="https://cdn01.jotfor.ms/js/payments/validategateways.js?v=3.3.43100"
         type="text/javascript"
       ></script>
-      <Script type="text/javascript" src="/assets/jotform.js" />
       <link
         type="text/css"
         rel="stylesheet"

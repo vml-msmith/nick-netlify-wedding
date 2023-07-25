@@ -243,6 +243,37 @@ for (var i = 0; i < all_spc.length; i++) {
   all_spc[i].value = "231768221965059-231768221965059";
 }
 
+var attending = document.getElementById("input_10");
+
+attending.addEventListener("change", function() {
+    if(attending.value == "Yes")
+    {
+      document.getElementById("id_8").style.display = null;
+      document.getElementById("id_15").style.display = null;
+      document.getElementById("id_13").style.display = null;
+      document.getElementById("id_12").style.display = null;
+    }
+    else {
+      document.getElementById("id_8").style.display = 'none';
+      document.getElementById("id_15").style.display = 'none';
+      document.getElementById("id_13").style.display = 'none';
+      document.getElementById("id_12").style.display = 'none';
+    }
+});
+
+var kids = document.getElementById("input_15");
+
+kids.addEventListener("change", function() {
+    if(kids.value == "Yes") {
+      document.getElementById("id_6").style.display = null;
+    }
+    else {
+      document.getElementById("id_6").style.display = 'none';
+
+    }
+})
+
+
 function create(htmlStr) {
   var frag = document.createDocumentFragment(),
     temp = document.createElement("div");
