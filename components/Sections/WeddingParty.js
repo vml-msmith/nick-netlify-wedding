@@ -6,7 +6,7 @@ export default function WeddingParty() {
     <Section id="party" title="Wedding Party" type="condensed">
       <div className="story__content">
         <IndividualStory role="Matron of Honor" title={<>Tatiana<br/>Moroz</>} img="/tanya.jpeg" img_alt="">
-          <p>30 years ago Tatiana transferred from another elementary school. At first recess she was standing alone by the window, I stopped by and asked her if she was a good painter.  A recess-long conversation started and it’s been going on until this day, mostly, because Tatiana never answered my question and I just want her to admit that she’s not good at painting.</p>
+          <p>30 years , Tatiana transferred from another elementary school. At first recess she was standing alone by the window, I stopped by and asked her if she was a good painter.  A recess-long conversation started, and it’s been going on until this day, mostly, because Tatiana never answered my question and I just want her to admit that she’s not good at painting.</p>
         </IndividualStory>
 
         <IndividualStory role="Best Man" title={<>Nicholas<br/>Dodson</>} img="/nick.jpeg" img_alt="">
@@ -14,15 +14,15 @@ export default function WeddingParty() {
         </IndividualStory>
 
         <IndividualStory role="Bridesmaid" title={<>Olha<br/>Vovk</>} img="/olga.jpeg" img_alt="">
-          <p>My workplace is also the place where I connected with one of the most incredible people I know. Olha and I bonded over something that is called API automation, and it evolved into a strong friendship and later into a business partnership. It is very rare when you meet someone later in life and you create a meaningful relationship that you treasure and this is exactly what happened between Olha and I.</p>
+          <p>My workplace is also the place where I connected with one of the most incredible people I know. Olha and I bonded over something that is called API automation, and it evolved into a strong friendship and later into a business partnership. It is very rare when you meet someone later in life and you create a meaningful relationship that you treasure, and this is exactly what happened between Olha and I.</p>
         </IndividualStory>
 
         <IndividualStory role="Groomsman" title={<>Corey<br/>Lee</>} img="/corey.jpg" img_alt="">
-          <p>Corey and I spent the majority of our teenage and early 20s years in each others company. We also met at Boy Scouts, and both participated in a lot of the same activities, including working together on Camp Staff. We both came of age together, spent too many nights hanging out at a coffee shop in college years and then decided to travel around the US together. Corey has gone on to serve in the Army and later move away from Kansas City, but I couldn't imagine I'd be the man I am today without his influence.</p>
+          <p>Corey and I spent most of our teenage and early 20s years in each other's company. We also met at Boy Scouts, and both participated in a lot of the same activities, including working together on Camp Staff. We both came of age together, spent too many nights hanging out at a coffee shop in college years and then decided to travel around the US together. Corey has gone on to serve in the Army and later move away from Kansas City, but I couldn't imagine I'd be the man I am today without his influence.</p>
         </IndividualStory>
 
         <IndividualStory role="Bridesmaid" title={<>Marina<br/>Melnychuk</>} img="/marina2.jpeg" img_alt="">
-          <p>Marina has a special place in my heart because I’ve known her since my childhood. Incredible confidence and self control is what made me to look up to her. Marina is the one who will always give you an advice that will have the best outcome. After a long separation she came to US last year- now I cannot imagine my special day without her standing by my side.</p>
+          <p>Marina has a special place in my heart because I’ve known her since my childhood. Incredible confidence and self-control are what made me to look up to her. Marina is the one who will always give you an advice that will have the best outcome. After a long separation she came to US last year- now I cannot imagine my special day without her standing by my side.</p>
         </IndividualStory>
 
         <IndividualStory role="Groomsman" title={<>Devon<br/>Smith</>} img="/devon.jpg" img_alt="">
@@ -34,7 +34,7 @@ export default function WeddingParty() {
         </IndividualStory>
 
         <IndividualStory role="Groomsman" title={<>Sasha<br/>Usman</>} img="/sasha.jpeg" img_alt="">
-          <p>Sasha is Irina's son, and has become a constant companion of mine as Irina and I grew closer. He is young man that is growing every day into a wonderful human being, and I can't wait to see the man he turns out to be.</p>
+          <p>Sasha is Irina's son and has become a constant companion of mine as Irina and I grew closer. He is young man that is growing every day into a wonderful human being, and I can't wait to see the man he turns out to be.</p>
         </IndividualStory>
       </div>
 

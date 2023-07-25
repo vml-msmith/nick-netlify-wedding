@@ -29,7 +29,7 @@ export default function FAQ() {
         answer={
           <>
             We're starting the ceremony at 4:00pm and ask that guests arrive
-            fifteen minutes early so that everyone is settled and we can begin
+            fifteen minutes early so that everyone is settled, and we can begin
             on time.
           </>
         }
@@ -53,10 +53,10 @@ export default function FAQ() {
         title="Will there be an open bar?"
         answer={
           <>
-            We are providing an open bar with beer, wine and cocktail
+            We are providing an open bar with beer, wine, and cocktail
             selections. There will be a cocktail hour for an hour after the
             ceremony and before the reception while the wedding party takes
-            photos near by.
+            photos nearby.
           </>
         }
       />
