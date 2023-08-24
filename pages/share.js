@@ -22,6 +22,12 @@ export default function ContactForm() {
         <textarea name="message" id="yourmessage"></textarea>
       </p>
       <p>
+      <label>
+      <span>Add file:</span>
+      <input name="file" type="file"/>
+    </label>
+      </p>
+      <p>
         <button type="submit">Send</button>
       </p>
     </form>
