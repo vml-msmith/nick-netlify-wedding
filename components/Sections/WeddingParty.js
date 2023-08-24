@@ -6,7 +6,7 @@ export default function WeddingParty() {
     <Section id="party" title="Wedding Party" type="condensed">
       <div className="story__content">
         <IndividualStory role="Matron of Honor" title={<>Tatiana<br/>Moroz</>} img="/tanya.jpeg" img_alt="">
-          <p>30 years , Tatiana transferred from another elementary school. At first recess she was standing alone by the window, I stopped by and asked her if she was a good painter.  A recess-long conversation started, and it’s been going on until this day, mostly, because Tatiana never answered my question and I just want her to admit that she’s not good at painting.</p>
+          <p>30 years ago Tatiana transferred from another elementary school. At first recess she was standing alone by the window, I stopped by and asked her if she was a good painter.  A recess-long conversation started, and it’s been going on until this day, mostly, because Tatiana never answered my question and I just want her to admit that she’s not good at painting.</p>
         </IndividualStory>
 
         <IndividualStory role="Best Man" title={<>Nicholas<br/>Dodson</>} img="/nick.jpeg" img_alt="">
