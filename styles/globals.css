@@ -529,6 +529,10 @@ h1 {
   overflow: hidden;
 }
 
+.media-upload img {
+  height: 100%;
+}
+
 .media-upload > div {
   color: #333;
   text-align: center;
