@@ -390,3 +390,129 @@ h1 {
 
 /* Injected CSS Code */
 @media print{.form-section{display:inline!important}.form-pagebreak{display:none!important}.form-section-closed{height:auto!important}.page-section{position:initial!important}}
+
+.slide {
+  position: relative;
+}
+
+.slide .content {
+  position: absolute;
+  background: #fff;
+  border-radius: 15px;
+  border: 1px solid lightgray;
+  padding: 1rem;
+  max-width: 70%;
+  font-size: 1rem;
+  box-shadow: 10px 5px 5px black;
+}
+
+
+.slide .content p {
+  margin-top: 0;
+}
+
+.slide .content .question {
+  font-size: 1.2rem;
+  margin: 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.slide .content .attribution {
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin: 0;
+  text-align: right;
+  font-weight: bold;
+}
+
+
+.bottom-left .slide .content {
+  bottom: 3rem;
+  left: -4rem;
+}
+
+.bottom-right .slide .content  {
+  bottom: 3rem;
+  right: -4rem;
+}
+
+.top-left  .slide .content  {
+  top: 3rem;
+  left: -4rem;
+}
+
+.top-right .slide .content  {
+  top: 3rem;
+  right: -4rem;
+}
+
+
+.slide img {
+  border-radius: 30px;
+  max-height: calc(100vh - 6rem);
+  max-width: calc(100vw - 8rem);
+}
+
+.slideshow {
+  transition: opacity 4s;
+  height: 100vh;
+}
+
+.slideshow.fadeout {
+  opacity: 0;
+}
+
+.shareBox {
+  position: absolute;
+  width: 300px;
+  right: .5rem;
+}
+
+.shareBox h1 {
+  text-align: center;
+}
+
+.media-upload {
+  width: calc(100%);
+  height: 200px;
+  border: 1px dashed #333;
+  border-radius: 20px;
+}
+
+.share-form {
+  margin: 1rem;
+}
+
+.share-form label {
+  font-family: 'Playfair Display', serif;
+}
+
+.share-form input[type="text"] {
+  border: 1px solid #333;
+  border-radius: 3px;
+  width: 100%;
+  font-size: 16px;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.share-form textarea {
+  border: 1px solid #333;
+  border-radius: 3px;
+  width: 100%;
+  height: 80px;
+  font-size: 16px;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.share-form button {
+  width: 100%;
+  height: 40px;
+  border-radius: 3px;
+  border: 1px solid #333;
+  text-transform: uppercase;
+  font-weight: bold;
+}

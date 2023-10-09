@@ -1,35 +1,78 @@
+import { useRef, useState, useEffect } from "react";
+
+
 export default function ContactForm() {
+  const [selectedFile, setSelectedFile] = useState()
+  const [preview, setPreview] = useState()
+
+  const inputFileRef = useRef();
+
+  // create a preview as a side effect, whenever selected file is changed
+  useEffect(() => {
+    if (!selectedFile) {
+        setPreview(undefined)
+        return
+    }
+
+    const objectUrl = URL.createObjectURL(selectedFile)
+    setPreview(objectUrl)
+
+    // free memory when ever this component is unmounted
+    return () => URL.revokeObjectURL(objectUrl)
+}, [selectedFile])
+
+  const onFileChangeCapture = ( e ) => {
+    /*Selected files data can be collected here.*/
+    console.log(e.target.files);
+
+    if (!e.target.files || e.target.files.length === 0) {
+      setSelectedFile(undefined)
+      return
+    }
+
+    setSelectedFile(e.target.files[0])
+
+  }
+
+
+
+  const onBtnClick = () => {
+    /*Collecting node-element and performing click*/
+    inputFileRef.current.click();
+  };
+
   return (
-    <form name="contact" method="POST" data-netlify="true">
-      <input type="hidden" name="form-name" value="contact" />
-      <p>
-<input type="text" name="firstname" id="firstname" />
-        <label htmlFor="yourname">
-          Your Name:
-        </label> <br />
-        <input type="text" name="name" id="yourname" />
-      </p>
-      <p>
-        <label htmlFor="youremail">
-          Your Email:
-        </label> <br />
-        <input type="email" name="email" id="youremail" />
-      </p>
-      <p>
-        <label htmlFor="yourmessage">
-          Message:
-        </label> <br />
-        <textarea name="message" id="yourmessage"></textarea>
-      </p>
-      <p>
-      <label>
-      <span>Add file:</span>
-      <input name="file" type="file"/>
-    </label>
-      </p>
-      <p>
-        <button type="submit">Send</button>
-      </p>
-    </form>
-  )
+    <div className="share-form">
+      <form name="contact" method="POST" data-netlify="true">
+        <div className="media-upload" onClick={onBtnClick}>
+        {selectedFile &&  <img src={preview} /> }
+
+        </div>
+        <input type="hidden" name="form-name" value="photos" />
+        <div className="photo_upload_widget"></div>
+        <p>
+          <label>
+            <span>Add file:</span>
+            <input
+              ref={inputFileRef}
+              onChangeCapture={onFileChangeCapture}
+              name="file"
+              type="file" />
+          </label>
+        </p>
+        <p>
+          <label htmlFor="yourname">Your Name:</label> <br />
+          <input type="text" name="name" id="yourname" />
+        </p>
+
+        <p>
+          <label htmlFor="yourmessage">Message:</label> <br />
+          <textarea name="message" id="yourmessage"></textarea>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+      </form>
+    </div>
+  );
 }
