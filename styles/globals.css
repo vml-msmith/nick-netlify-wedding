@@ -515,4 +515,39 @@ h1 {
   border: 1px solid #333;
   text-transform: uppercase;
   font-weight: bold;
+  background: rgb(32, 178, 73);
+}
+
+.media-upload {
+  background: rgb(232,235,243);
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  justify-items: end;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.media-upload > div {
+  color: #333;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.file-field {
+  display: none;
+}
+
+.share-success {
+  height: 100vh;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.share-success-content {
+  font-size: 2rem;
+  text-align: center;
 }

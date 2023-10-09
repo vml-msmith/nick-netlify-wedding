@@ -43,14 +43,15 @@ export default function ContactForm() {
 
   return (
     <div className="share-form">
-      <form name="contact" method="POST" data-netlify="true">
+      <form name="contact" action="/share-success" method="POST" data-netlify="true">
         <div className="media-upload" onClick={onBtnClick}>
+          {!selectedFile && <div>Upload<br/>Photo</div>}
         {selectedFile &&  <img src={preview} /> }
 
         </div>
         <input type="hidden" name="form-name" value="photos" />
         <div className="photo_upload_widget"></div>
-        <p>
+        <p className="file-field">
           <label>
             <span>Add file:</span>
             <input
@@ -70,7 +71,7 @@ export default function ContactForm() {
           <textarea name="message" id="yourmessage"></textarea>
         </p>
         <p>
-          <button type="submit">Send</button>
+          <button type="submit">Share Photo</button>
         </p>
       </form>
     </div>
