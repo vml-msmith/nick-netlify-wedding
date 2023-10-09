@@ -43,7 +43,7 @@ export default function ContactForm() {
 
   return (
     <div className="share-form">
-      <form name="contact" action="/share-success" method="POST" data-netlify="true">
+      <form name="photos" action="/share-success" method="POST" data-netlify="true">
         <div className="media-upload" onClick={onBtnClick}>
           {!selectedFile && <div>Upload<br/>Photo</div>}
         {selectedFile &&  <img src={preview} /> }
