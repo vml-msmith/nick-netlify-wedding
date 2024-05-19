@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Irina and Michael -- Getting Married!</title>
+        <title>Angela and Nicholas -- Getting Married!</title>
         <link rel="icon" href="/favicon.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
@@ -43,8 +43,8 @@ export default function Home() {
       <main>
         <div id="home" name="home"></div>
         <Hero />
-        <Menu title="I&M" />
-        <Header title="Irina & Michael" />
+        <Menu title="A&N" />
+        <Header title="Angela & Nicholas" />
 
         <Section>
           <div className="header__details">
