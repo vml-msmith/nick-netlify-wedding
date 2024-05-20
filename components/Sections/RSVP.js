@@ -61,7 +61,7 @@ export default function RSVP() {
               <div className="form-header-group  header-large">
                 <div className="header-text httal htvam">
                   <h1 className="Header_header__title__t1eCI">
-                    Angela &amp; Nicholas
+                    Angela &amp; Nick
                   </h1>
                   <h2 className="Header_header__title__t1eCI">
                     Wedding Ceremony and Reception RSVP

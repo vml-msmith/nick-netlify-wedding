@@ -10,17 +10,17 @@ export default function FAQ() {
           <>
             We're requesting{" "}
             <a
-              href="https://www.brides.com/black-tie-optional-wedding-attire-4800698"
+              href="https://www.brides.com/cocktail-attire-wedding-4844364"
               target="_blank"
             >
-              Cocktail Attire
+              Cocktail Wedding Attire
             </a>{" "}
             for the ceremony and reception.
             <br />
             <br />
             We don't expect everyone to follow the dress code to the T, but we
             would like to keep the event as a classy affair. It's a great chance
-            for everyone to dress up for the evening.
+            for everyone to dress up for the evening. If you're unsure what cocktail attire entails (don't worry, we're all confused), you can see an easy guide here: <a href="https://www.brides.com/cocktail-attire-wedding-4844364">https://www.brides.com/cocktail-attire-wedding-4844364</a>
           </>
         }
       />
