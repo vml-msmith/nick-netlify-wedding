@@ -13,7 +13,7 @@ export default function FAQ() {
               href="https://www.brides.com/black-tie-optional-wedding-attire-4800698"
               target="_blank"
             >
-              Black Tie Optional
+              Cocktail Attire
             </a>{" "}
             for the ceremony and reception.
             <br />

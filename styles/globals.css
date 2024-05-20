@@ -355,6 +355,10 @@ h1 {
   color: #333;
 }
 
+.header__header {
+  text-align: center;
+}
+
 .header__details {
   font: 400 14px Lato, sans-serif;
   letter-spacing: 0.1em;

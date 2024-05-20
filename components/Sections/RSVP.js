@@ -61,14 +61,14 @@ export default function RSVP() {
               <div className="form-header-group  header-large">
                 <div className="header-text httal htvam">
                   <h1 className="Header_header__title__t1eCI">
-                    Irina &amp; Michael
+                    Angela &amp; Nicholas
                   </h1>
                   <h2 className="Header_header__title__t1eCI">
                     Wedding Ceremony and Reception RSVP
                   </h2>
                   <p>
                     Invites have gone out! Please reply by <strong>September 1st</strong>. We hope you
-                    can make it, and really appreciate the prompty reply!
+                    can make it, and really appreciate the prompt reply!
                   </p>
                 </div>{" "}
               </div>
