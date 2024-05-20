@@ -48,16 +48,15 @@ export default function Home() {
 
         <Section>
           <div className="header__details">
-            <div>Ceremony to begin at 4:00pm</div>
+            <div>Ceremony to begin at 1:00pm</div>
           </div>
           <div className="header__details">
-            <div><a target="_blank" href="http://grandstreetkc.com/plaza-event-spaces-2/">Grand Street Cafe</a></div>
+            <div><a target="_blank" href="http://holynameparishkck.org/">Holy Name of Jesus Parish</a></div>
           </div>
           <div className="header__details">
-            <div><a href="https://www.google.com/maps/place/Grand+Street+Cafe/@39.0413377,-94.5880478,17z/data=!3m1!4b1!4m6!3m5!1s0x87c0efbfabd07121:0x4d29f6c1222606e7!8m2!3d39.0413336!4d-94.5854675!16s%2Fg%2F1tfzbq84?entry=ttu" target="_blank">4740 Grand Ave &#x2022; Kansas City, MO &#x2022; 64112</a></div>
+            <div><a href="https://www.google.com/maps/place/Holy+Name+of+Jesus+Parish/@38.9978394,-94.5811772,12z/data=!4m6!3m5!1s0x87c0ee20dc997909:0xdbf33f1dcb73a9bd!8m2!3d39.0613039!4d-94.6206248!16s%2Fg%2F1yfdrnk8h?entry=ttu" target="_blank">1001 Southwest Blvd &#x2022; Kansas City, KS &#x2022; 66103</a></div>
           </div>
           <div className="header__details">
-            <div>Dress code is <a href="https://www.brides.com/black-tie-optional-wedding-attire-4800698" target="_blank">Black Tie Optional</a></div>
           </div>
         </Section>
 

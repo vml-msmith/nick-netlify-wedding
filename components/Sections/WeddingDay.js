@@ -8,27 +8,22 @@ export default function WeddingDay() {
       <div className="where">
         <h2>
           Ceremony and reception will be held at{" "}
-          <a
-            target="_blank"
-            href="http://grandstreetkc.com/plaza-event-spaces-2/"
-          >
-            Grand Street Cafe Event Space
-          </a>
+            Holy Name of Jesus Parish
         </h2>
         <div className="mapBox">
           <Map />
           <div>
-            <h3>Grand Street Cafe</h3>
+            <h3>Holy Name of Jesus Parish</h3>
             <a
               target="_blank"
-              href="https://www.google.com/maps/place/Grand+Street+Cafe/@39.0413377,-94.5880478,17z/data=!3m1!4b1!4m6!3m5!1s0x87c0efbfabd07121:0x4d29f6c1222606e7!8m2!3d39.0413336!4d-94.5854675!16s%2Fg%2F1tfzbq84?entry=ttu"
+              href="https://www.google.com/maps/place/Holy+Name+of+Jesus+Parish/@39.061308,-94.6232051,16z/data=!3m1!4b1!4m6!3m5!1s0x87c0ee20dc997909:0xdbf33f1dcb73a9bd!8m2!3d39.0613039!4d-94.6206248!16s%2Fg%2F1yfdrnk8h?entry=ttu"
             >
               <address>
-                4740 Grand Ave
+                1001 Southwest Blvd
                 <br />
-                Kansas City, MO
+                Kansas City, KS
                 <br />
-                64112
+                66103
               </address>
             </a>
           </div>
