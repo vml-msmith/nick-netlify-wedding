@@ -10,13 +10,13 @@ const containerStyle = {
 };
 
 const center = {
-  lat: 39.0425,
-  lng: -94.5872
+  lat: 39.0613039,
+  lng: -94.6206248
 };
 
 const position = {
-  lat: 39.041525230284435,
-  lng: -94.58548896061824
+  lat: 39.0613039,
+  lng: -94.6206248
 };
 
 
@@ -45,7 +45,7 @@ export default function Map(props) {
     <GoogleMap
       mapContainerStyle={containerStyle}
       center={center}
-      zoom={16}
+      zoom={15}
       onLoad={onLoad}
       onUnmount={onUnmount}
       options={{mapId: '12464baacf248c3e'}}
