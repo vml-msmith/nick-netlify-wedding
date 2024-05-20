@@ -10,7 +10,7 @@ export default function TogetherStory(props) {
           src={props.img}
           alt={props.img_alt}
           width={300}
-          height={700}
+          height={800}
           layout="responsive"
         />
       </div>

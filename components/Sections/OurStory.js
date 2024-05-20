@@ -8,7 +8,7 @@ export default function OurStory() {
   return (
     <Section id="story" title="Our Story">
     <div className="story__content">
-      <IndividualStory title="Angela" img="/irina1.jpeg" img_alt="">
+      <IndividualStory title="Angela" img="/angela.jpg" img_alt="">
         <p>Introducing Angela. Lorem ipsum dolor it amet.  Lorem ipsum dolor it amet.   Lorem ipsum dolor it amet.   Lorem ipsum dolor it amet.   Lorem ipsum dolor it amet.   Lorem ipsum dolor it amet.   Lorem ipsum dolor it amet.   Lorem ipsum dolor it amet.   Lorem ipsum dolor it amet.  </p>
       </IndividualStory>
 
@@ -16,7 +16,7 @@ export default function OurStory() {
         <p>Introducing Nicholas. Lorem ipsum dolor it amet.  Lorem ipsum dolor it amet.   Lorem ipsum dolor it amet.   Lorem ipsum dolor it amet.   Lorem ipsum dolor it amet.   Lorem ipsum dolor it amet.   Lorem ipsum dolor it amet.   Lorem ipsum dolor it amet.   Lorem ipsum dolor it amet.  </p>
       </IndividualStory>
 
-      <TogetherStory title="Us Together!" img="/us1.jpeg" img_alt="">
+      <TogetherStory title="Us Together!" img="/us.jpg" img_alt="">
         <p>Introducing Angela. Lorem ipsum dolor it amet.  Lorem ipsum dolor it amet.   Lorem ipsum dolor it amet.   Lorem ipsum dolor it amet.   Lorem ipsum dolor it amet.   Lorem ipsum dolor it amet.   Lorem ipsum dolor it amet.   Lorem ipsum dolor it amet.   Lorem ipsum dolor it amet.  </p>
         <p>Introducing Nicholas. Lorem ipsum dolor it amet.  Lorem ipsum dolor it amet.   Lorem ipsum dolor it amet.   Lorem ipsum dolor it amet.   Lorem ipsum dolor it amet.   Lorem ipsum dolor it amet.   Lorem ipsum dolor it amet.   Lorem ipsum dolor it amet.   Lorem ipsum dolor it amet.  </p>
       </TogetherStory>
