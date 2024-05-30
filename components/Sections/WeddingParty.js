@@ -5,28 +5,57 @@ export default function WeddingParty() {
   return (
     <Section id="party" title="Wedding Party" type="condensed">
       <div className="story__content">
-        <IndividualStory role="Maid of Honor" title={<>JoAnna<br/>Schear</>} img="/tanya.jpeg" img_alt="">
-          <p>30 years ago Tatiana transferred from another elementary school. At first recess she was standing alone by the window, I stopped by and asked her if she was a good painter.  A recess-long conversation started, and it’s been going on until this day, mostly, because Tatiana never answered my question and I just want her to admit that she’s not good at painting.</p>
+        <IndividualStory role="Maid of Honor" title={<>Joanna<br/>Schear</>} img="/tanya.jpeg" img_alt="">
+          <p>Joanna is the sister for which I prayed and my only sibling.  Despite mental delays and physical
+limitations, she is one of the sweetest people I know.  She fully lives up to her middle name of
+Joy.  Joanna and I speak our own language, play our own games, and enjoy giving each other
+hugs and showing physical affection.  We take special trips like going to Stockton Lake for the
+weekend.  She attends a year-round day program for special-needs adults and lives at home with
+our parents.  Her favorite pastime is playing with rubber gloves.</p>
         </IndividualStory>
 
         <IndividualStory role="Best Man" title={<>Michael<br/>Smith</>} img="/nick.jpeg" img_alt="">
-          <p>Nick has been my friend since childhood, having met at Boy Scouts. Although we were a year apart in age and rank, our involvement in our late teens led to us becoming good friends. We worked together and even lived together many years both at Scout Camp and in our after-camp lives. I'm proud to call Nick one of my best friends.</p>
+          <p>Michael and I first met in Boy Scouts as teenagers. We were one year apart, but our personalities
+meshed well from the start. We got closer after working on Boy Scout summer camp staff
+together for 3 years. Not long after that, we lived together for almost 7 years as we both got
+established in our careers. I was honored to stand next to Michael as he married Irina back in
+October. Michael has a giving spirit, which is seen on this very website as he literally built it!</p>
         </IndividualStory>
 
         <IndividualStory role="Bridesmaid" title={<>Laura<br/>Smalley</>} img="/olga.jpeg" img_alt="">
-          <p>My workplace is also the place where I connected with one of the most incredible people I know. Olha and I bonded over something that is called API automation, and it evolved into a strong friendship and later into a business partnership. It is very rare when you meet someone later in life and you create a meaningful relationship that you treasure, and this is exactly what happened between Olha and I.</p>
+          <p>My housemate and best friend of nine years, I met Laura at a disaster relief training in our
+mutual home-state of California.  We reconnected at our church, the International House of
+Prayer in Kansas City, where she was on staff.  Laura now teaches 4 th  grade at The Daniel
+Academy.  She and I have been on our church’s dance team for many years.  We have enjoyed
+traveling together to Israel (twice!), Germany, Italy, the Grand Canyon in Arizona, Yellowstone
+in Wyoming, Texas, California, and Cape Cod, Massachusetts.</p>
         </IndividualStory>
 
         <IndividualStory role="Groomsman" title={<>Jeff<br/>Volk</>} img="/corey.jpg" img_alt="">
-          <p>Corey and I spent most of our teenage and early 20s years in each other's company. We also met at Boy Scouts, and both participated in a lot of the same activities, including working together on Camp Staff. We both came of age together, spent too many nights hanging out at a coffee shop in college years and then decided to travel around the US together. Corey has gone on to serve in the Army and later move away from Kansas City, but I couldn't imagine I'd be the man I am today without his influence.</p>
+          <p>I met Jeff when we were freshmen in high school. At the time, his family had just moved here,
+and I was going to a high school where I literally knew one other person. When one quiet, easy-
+going, sports-loving guy meets another, a friendship ensues. I was honored to stand next to Jeff
+as he married Amy back in 2009. Through tragedy, we both unexpectedly lost parents far earlier
+than expected. Through grace, our surviving parents actually married years later, so I am thrilled
+that Jeff is not only a friend but also my stepbrother!</p>
         </IndividualStory>
 
         <IndividualStory role="Bridesmatron" title={<>Miranda<br/>Keough</>} img="/marina2.jpeg" img_alt="">
-          <p>Marina has a special place in my heart because I’ve known her since my childhood. Incredible confidence and self-control are what made me to look up to her. Marina is the one who will always give you an advice that will have the best outcome. After a long separation she came to US last year- now I cannot imagine my special day without her standing by my side.</p>
+          <p>Miranda and I were roommates at Oral Roberts University for 3 years.  We supported each other
+through the challenges of the nursing program, the rigors of the honors program, the joys of
+dorm-floor leadership positions, the opportunities of multiple international and local outreaches,
+and the pain of her mom’s cancer-diagnosis our senior year.  My “Georgia-Mom” went to heaven
+in 2013.  We keep up our friendship through my annual visits to her home-state of
+Georgia.  Miranda, her husband and their five children warmly welcome “Aunt Angela.”</p>
         </IndividualStory>
 
         <IndividualStory role="Groomsman" title={<>Trent<br/>Dodson</>} img="/devon.jpg" img_alt="">
-          <p>Devon is my younger brother by 9 years. For many siblings, that age gap may make for a not-very-close relationship. In our case though, that couldn't be further from the truth. Devon is certainly one of my go-to calls when I'm inviting people to hang out or looking to involve people in an activity. We share a lot of the same interests and I definitely consider him a friend as well as my brother.</p>
+          <p>My brother Trent had to be part of my special day. Trent is 11 years older than me, but we are
+still close. Though Trent was out of the house for most of my formative years, he always had
+time for me. I have fond memories of him picking me up and taking me to lunch, just the two of
+us. Over the years, we have only gotten closer as we talk almost weekly. I was thrilled to be part
+of his wedding with Jennifer in 2011, and I couldn’t imagine having my own wedding without
+him there.</p>
         </IndividualStory>
       </div>
 
