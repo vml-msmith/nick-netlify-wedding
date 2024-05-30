@@ -5,7 +5,7 @@ export default function WeddingParty() {
   return (
     <Section id="party" title="Wedding Party" type="condensed">
       <div className="story__content">
-        <IndividualStory role="Maid of Honor" title={<>Joanna<br/>Schear</>} img="/tanya.jpeg" img_alt="">
+        <IndividualStory role="Maid of Honor" title={<>Joanna<br/>Schear</>} img="/IMG_7552.jpeg" img_alt="">
           <p>Joanna is the sister for which I prayed and my only sibling.  Despite mental delays and physical
 limitations, she is one of the sweetest people I know.  She fully lives up to her middle name of
 Joy.  Joanna and I speak our own language, play our own games, and enjoy giving each other
@@ -14,7 +14,7 @@ weekend.  She attends a year-round day program for special-needs adults and li
 our parents.  Her favorite pastime is playing with rubber gloves.</p>
         </IndividualStory>
 
-        <IndividualStory role="Best Man" title={<>Michael<br/>Smith</>} img="/nick.jpeg" img_alt="">
+        <IndividualStory role="Best Man" title={<>Michael<br/>Smith</>} img="/IMG_9799.jpeg" img_alt="">
           <p>Michael and I first met in Boy Scouts as teenagers. We were one year apart, but our personalities
 meshed well from the start. We got closer after working on Boy Scout summer camp staff
 together for 3 years. Not long after that, we lived together for almost 7 years as we both got
@@ -31,7 +31,7 @@ traveling together to Israel (twice!), Germany, Italy, the Grand Canyon in Arizo
 in Wyoming, Texas, California, and Cape Cod, Massachusetts.</p>
         </IndividualStory>
 
-        <IndividualStory role="Groomsman" title={<>Jeff<br/>Volk</>} img="/corey.jpg" img_alt="">
+        <IndividualStory role="Groomsman" title={<>Jeff<br/>Volk</>} img="/IMG_4876.jpeg" img_alt="">
           <p>I met Jeff when we were freshmen in high school. At the time, his family had just moved here,
 and I was going to a high school where I literally knew one other person. When one quiet, easy-
 going, sports-loving guy meets another, a friendship ensues. I was honored to stand next to Jeff
@@ -49,7 +49,7 @@ in 2013.  We keep up our friendship through my annual visits to her home-state
 Georgia.  Miranda, her husband and their five children warmly welcome “Aunt Angela.”</p>
         </IndividualStory>
 
-        <IndividualStory role="Groomsman" title={<>Trent<br/>Dodson</>} img="/devon.jpg" img_alt="">
+        <IndividualStory role="Groomsman" title={<>Trent<br/>Dodson</>} img="/IMG_5749.jpeg" img_alt="">
           <p>My brother Trent had to be part of my special day. Trent is 11 years older than me, but we are
 still close. Though Trent was out of the house for most of my formative years, he always had
 time for me. I have fond memories of him picking me up and taking me to lunch, just the two of
