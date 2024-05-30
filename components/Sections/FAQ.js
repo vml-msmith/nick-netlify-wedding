@@ -28,35 +28,27 @@ export default function FAQ() {
         title="What time should we arrive?"
         answer={
           <>
-            We're starting the ceremony at 4:00pm and ask that guests arrive
-            fifteen minutes early so that everyone is settled, and we can begin
-            on time.
+            Our wedding ceremony will start at 1:00pm., but worship music will start at the church at 12:30pm.  Please join us if you can.  We ask that all guests arrive at least fifteen minutes early so that the ceremony can start on time at 1:00pm.  Guests are welcome to arrive at the reception any time after 5:30pm.
           </>
         }
       />
       <FAQItem
-        title="Can I bring a plus one?"
-        answer={<>Absolutely, if you have a plus one, you should bring them.</>}
+        title="Can I bring a plus one or my children?"
+        answer={<>Absolutely, if your invitation includes a plus one or "and family," please bring them with you.  There will be many kids in attendance.  Please, include everyone you would like to attend in your RSVP so that we can get an accurate count.</>}
       />
       <FAQItem
-        title="Are kids invited?"
+        title="What hotels do you recommend?"
         answer={
           <>
-            Yes, there will be many kids in attendance. If you have little ones
-            that would like to attend, all we ask is that you include that in
-            your RSVP so that we can get an accurate count. Please no +1s for
-            the kids.
+           We have two hotels we are recommending to our guests from out of town. [Include hotel info here]
           </>
         }
       />
       <FAQItem
-        title="Will there be an open bar?"
+        title="Will there be alcohol at the reception?"
         answer={
           <>
-            We are providing an open bar with beer, wine, and cocktail
-            selections. There will be a cocktail hour for an hour after the
-            ceremony and before the reception while the wedding party takes
-            photos nearby.
+            Yes, we will have an adult beverage table for guests to pour or mix their own drinks. Other drinks (such as water, tea, and lemonade) will also be provided.
           </>
         }
       />
