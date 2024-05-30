@@ -3,8 +3,6 @@ import PhotoGallery from '@components/PhotoGallery'
 
 export default function Photos() {
   let photos = [
-    '/IMG_4095.jpeg',
-    '/IMG_0391.jpeg',
     '/IMG_2373.jpeg',
     '/IMG_2381.jpeg',
     '/IMG_2531.jpeg',

@@ -22,7 +22,7 @@ established in our careers. I was honored to stand next to Michael as he married
 October. Michael has a giving spirit, which is seen on this very website as he literally built it!</p>
         </IndividualStory>
 
-        <IndividualStory role="Bridesmaid" title={<>Laura<br/>Smalley</>} img="/olga.jpeg" img_alt="">
+        <IndividualStory role="Bridesmaid" title={<>Laura<br/>Smalley</>} img="/IMG_4095.jpeg" img_alt="">
           <p>My housemate and best friend of nine years, I met Laura at a disaster relief training in our
 mutual home-state of California.  We reconnected at our church, the International House of
 Prayer in Kansas City, where she was on staff.  Laura now teaches 4 th  grade at The Daniel
@@ -40,7 +40,7 @@ than expected. Through grace, our surviving parents actually married years later
 that Jeff is not only a friend but also my stepbrother!</p>
         </IndividualStory>
 
-        <IndividualStory role="Bridesmatron" title={<>Miranda<br/>Keough</>} img="/marina2.jpeg" img_alt="">
+        <IndividualStory role="Bridesmatron" title={<>Miranda<br/>Keough</>} img="/IMG_0391.jpeg" img_alt="">
           <p>Miranda and I were roommates at Oral Roberts University for 3 years.  We supported each other
 through the challenges of the nursing program, the rigors of the honors program, the joys of
 dorm-floor leadership positions, the opportunities of multiple international and local outreaches,
