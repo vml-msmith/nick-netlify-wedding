@@ -17,7 +17,7 @@ export default function WeddingDay() {
       <h1 className="registry_heading">
         <a
           target="_blank"
-          href="https://www.zola.com/registry/michaelandirina2023"
+          href="https://www.zola.com/registry/angelaandnickaugust10"
         >
           Visit Our Gift Registry
         </a>
