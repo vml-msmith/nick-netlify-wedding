@@ -9,7 +9,7 @@ import OurStory from "@components/Sections/OurStory";
 
 import WeddingParty from "@components/Sections/WeddingParty";
 import Photos from "@components/Sections/Photos";
-import RSVP from "@components/Sections/RSVP";
+import RSVP from "@components/Sections/RSVPNick";
 import WeddingDay from "@components/Sections/WeddingDay";
 import Registry from "@components/Sections/Registry";
 import FAQ from "@components/Sections/FAQ";
