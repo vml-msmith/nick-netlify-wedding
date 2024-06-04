@@ -34,7 +34,7 @@ export default function WeddingDay() {
               href="https://www.google.com/maps/@38.7453415,-94.4413576,3a,75y,23.67h,87.2t/data=!3m7!1e1!3m5!1sdJf7pFhpOG0o9SV-yVjYAA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DdJf7pFhpOG0o9SV-yVjYAA%26cb_client%3Dmaps_sv.share%26w%3D900%26h%3D600%26yaw%3D23.66706680362075%26pitch%3D2.8014095138684922%26thumbfov%3D90!7i16384!8i8192?coh=205410&entry=ttu"
             >
               <address>
-                200619 S State Rt J
+                20619 S State Rt J
                 <br />
                 Peculiar, MO
                 <br />
