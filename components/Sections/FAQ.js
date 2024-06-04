@@ -39,9 +39,26 @@ export default function FAQ() {
       <FAQItem
         title="What hotels do you recommend?"
         answer={
-          <>
-           We have two hotels we are recommending to our guests from out of town. [Include hotel info here]
-          </>
+
+  <>
+  <p>
+           We have two hotels we are recommending to our guests from out of town.
+          </p>
+          <div>
+            <strong>Hampton Inn</strong><br />
+            <p>
+            This hotel is closest to the reception venue.<br/><a href="https://maps.app.goo.gl/ybZzCwh3Ut5oiXbP7?g_st=ic" target="_blank">Google Map Link</a>
+            </p>
+          </div>
+          <div>
+            <strong>Holiday Inn Express</strong><br />
+            <p>
+            This hotel is very close to the bride's house and, consequently, closer to the groom's house and the church; however, it is slightly farther from the reception venue.
+            <br />
+            <a href="https://maps.app.goo.gl/2YsdS9xoPrCDmDGr5?g_st=i" target="_blank">Google Map Link</a>
+            </p>
+          </div>
+</>
         }
       />
       <FAQItem
