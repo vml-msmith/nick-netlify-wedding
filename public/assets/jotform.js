@@ -562,17 +562,69 @@ document.querySelector("form").addEventListener("submit", function (event) {
     })
     .then(function (data) {
       // This is the JSON from our response
+      var fragment = null;
 
-      let div = document.createElement("div");
-      div.innerHTML = data;
-      let content = div.querySelector(".thankyou-wrapper").outerHTML;
-      var fragment = document.createElement("div");
-      fragment.innerHTML = content;
-
+      if (!data.includes("Captcha-BlankSubMounted_Captcha")) {
+        let div = document.createElement("div");
+        div.innerHTML = data;
+        let content = div.querySelector(".thankyou-wrapper").outerHTML;
+        fragment = document.createElement("div");
+        fragment.innerHTML = content;
+      }
+      else {
+        let div = document.createElement("div");
+        div.innerHTML = data;
+        let content = div.querySelector("form").outerHTML;
+        fragment = document.createElement("div");
+        fragment.innerHTML = content;
+        fragment.classList.add("captcha-form");
+      }
       document
         .querySelector("form")
         .insertAdjacentElement("afterEnd", fragment);
-      document.querySelector("form").hide();
+        var x = fragment.getElementsByTagName("script");
+        for(var i=0;i<x.length;i++)
+        {
+            eval(x[i].text);
+        }
+        document.querySelector("form").hide();
+        document.querySelector(".captcha-form form").addEventListener("submit", function (event) {
+          event.preventDefault();
+          var data = this;
+          fetch(data.getAttribute("action"), {
+            mode: "no-cors",
+            method: data.getAttribute("method"),
+            body: new FormData(data),
+          })
+            .then(function (response) {
+              // The API call was successful!
+              if (response.status == 200 || response.status == 0) {
+                let fragment = document.createElement("div");
+                fragment.classList.add('form-thankyou');
+                fragment.innerHTML = '<div class="form-header">Thank you!</div><div class="form-message">Your RSVP has been received and we can\'t wait to share our wedding with you!</div>';
+
+                document
+                  .querySelector("form")
+                  .insertAdjacentElement("afterEnd", fragment);
+
+                  document.querySelector(".captcha-form").hide();
+
+                return response.text();
+
+              } else {
+                return Promise.reject(response);
+              }
+            })
+            .then(function (data) {
+              console.log(data);
+            })
+            .catch(function (err) {
+              // There was an error
+              console.warn("Something went wrong.", err);
+            });
+        });
+
+
     })
     .catch(function (err) {
       // There was an error
