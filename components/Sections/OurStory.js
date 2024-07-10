@@ -43,7 +43,7 @@ though, notably about faith. Bob loved that question and was happy to share that
 church in several capacities. Knowing this, Angela thought a relationship with Nick might be
 worth a shot.</p>
 <p>It took some time to come together, but Angela and Nick went on their first date on December
-10, 2023 at Rockhill Grille. They connected well, almost too well, as the waitress had to come
+9, 2023 at Rockhill Grille. They connected well, almost too well, as the waitress had to come
 back to the table multiple times before they were even ready to order drinks. Three days later,
 Angela left for 2 weeks to visit family in Alaska while Nick stayed home and eventually hosted
 family for Christmas. The second date was not until December 30, but the frequency of dates
