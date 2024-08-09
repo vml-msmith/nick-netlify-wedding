@@ -22,7 +22,7 @@ established in our careers. I was honored to stand next to Michael as he married
 October. Michael has a giving spirit, which is seen on this very website as he literally built it!</p>
         </IndividualStory>
 
-        <IndividualStory role="Bridesmaid" title={<>Laura<br/>Smalley</>} img="/IMG_4095.jpeg" img_alt="">
+        <IndividualStory role="Bridesmatron" title={<>Laura<br/>Vogel</>} img="/IMG_4095.jpeg" img_alt="">
           <p>My housemate and best friend of nine years, I met Laura at a disaster relief training in our
 mutual home-state of California.  We reconnected at our church, the International House of
 Prayer in Kansas City, where she was on staff.  Laura now teaches 4 th  grade at The Daniel
